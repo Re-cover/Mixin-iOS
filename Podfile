@@ -5,14 +5,14 @@ target 'Mixin' do
   use_frameworks!
   inhibit_all_warnings!
 
-  pod 'Alamofire', :git => 'git@github.com:over140/Alamofire.git', :branch => 'master'
+  pod 'Alamofire', :git => 'https://github.com/over140/Alamofire.git', :branch => 'master'
   pod 'Bugsnag'
   pod 'Firebase/Core'
   pod 'Firebase/Analytics'
   pod 'SDWebImageYYPlugin/YYImage'
   pod 'YYImage/WebP'
   pod 'SnapKit'
-  pod 'SocketRocket', :git => 'git@github.com:over140/SocketRocket.git', :branch => 'feature/request'
+  pod 'SocketRocket', :git => 'https://github.com/over140/SocketRocket.git', :branch => 'feature/request'
   pod 'PhoneNumberKit'
   pod 'GzipSwift'
   pod 'RSKImageCropper'
@@ -20,8 +20,8 @@ target 'Mixin' do
   pod 'JWT', '~> 3.0.0-beta.7'
   pod 'SwiftMessages'
   pod 'Zip', '~> 1.1'
-  pod 'SignalProtocolC', :git => 'git@github.com:MixinMessenger/SignalProtocolC.git', :submodules => true
-  pod 'WCDB.swift', :git => 'git@github.com:MixinNetwork/wcdb.git', :branch => 'swift4.2'
+  pod 'SignalProtocolC', :git => 'https://github.com/MixinNetwork/SignalProtocolC.git', :submodules => true
+  pod 'WCDB.swift', :git => 'https://github.com/MixinNetwork/wcdb.git', :branch => 'swift4.2'
   pod 'GiphyCoreSDK'
   pod 'GoogleWebRTC'
 
